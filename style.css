@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background-color: #fffaf6;
+  color: #5c3a1e;
+  cursor: url('paw-cursor.png'), auto;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+
+.logo-cat {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  width: 80px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #d57c3b;
+}
+
+h2 {
+  text-align: center;
+  color: #b85c2b;
+}
+
+.menu-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 2em;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.side-menu {
+  position: fixed;
+  right: -200px;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #ffe6cc;
+  padding-top: 60px;
+  transition: right 0.3s ease;
+  z-index: 99;
+}
+
+.side-menu a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #5c3a1e;
+  font-weight: bold;
+}
+
+.side-menu.show {
+  right: 0;
+}
+
+.galeria, .o-mnie {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.gallery-grid img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #d57c3b;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th, td {
+  border: 1px solid #d57c3b;
+  padding: 10px;
+  text-align: left;
+}
+
+form {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
