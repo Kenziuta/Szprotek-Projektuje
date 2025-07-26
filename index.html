@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Szprotek projektuje</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="paw-icon.png" type="image/png" />
+</head>
+<body>
+  <div class="menu-button" onclick="toggleMenu()">☰</div>
+  <div class="side-menu" id="sideMenu">
+    <a href="index.html">Strona główna</a>
+    <a href="cennik.html">Cennik</a>
+    <a href="kontakt.html">Kontakt</a>
+  </div>
+
+  <header>
+    <img src="cat-sitting.png" alt="Rudy kot" class="logo-cat" />
+    <h1>Szprotek projektuje</h1>
+  </header>
+
+  <main>
+    <section class="galeria">
+      <h2>Galeria prac</h2>
+      <input type="file" id="upload" multiple />
+      <div class="gallery-grid" id="galleryGrid"></div>
+    </section>
+
+    <section class="o-mnie">
+      <h2>O mnie</h2>
+      <p>Hej! Mam na imię Szprotek. Projektuję wnętrza pełne ciepła, miękkości i kociej radości. Uwielbiam rude akcenty, włóczki i przytulność. Zaprojektuję Twoje miejsce marzeń!</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
